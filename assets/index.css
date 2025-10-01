@@ -16,15 +16,6 @@
   align-items: center; /* vertical centering for grid/flex layouts */
 }
 
-/* Help the image itself align to the middle within the about layout */
-img.about-image,
-.about-image {
-  align-self: center;
-  /* Override Quarto inline width (e.g., style="width: 20em;") */
-  width: clamp(280px, 35vw, 480px) !important;
-  height: auto;                     /* keep natural aspect ratio */
-  margin-top: -300px;                /* Lift image upward */
-}
 
 /* Conservative fallback: if the about container isn't using grid/flex,
    center its first-level children with flex without changing columns */

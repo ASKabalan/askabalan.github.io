@@ -15,16 +15,6 @@ body {
   line-height: 1.7;
 }
 
-/* Avatar image styling for HOME */
-.avatar {
-  display: block;
-  width: clamp(280px, 35vw, 480px); /* larger, still responsive */
-  height: auto;                     /* keep natural aspect ratio */
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 0 1rem 0;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
 
 /* Navbar styling - larger menu bar */
 .navbar {
