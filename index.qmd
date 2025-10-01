@@ -1,0 +1,55 @@
+---
+title: "Wassim Kabalan"
+image: assets/avatar.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://fr.linkedin.com/in/wassimkabalan"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/askabalan"
+    - text: Talks
+      icon: presentation
+      url: "https://askabalan.github.io/slides/"
+    - text: arXiv
+      icon: file
+      url: "https://arxiv.org/search/?query=wassim+kabalan&searchtype=all&source=header"
+comments: false
+format:
+  html:
+    css: assets/index.css
+---
+
+::: {.column-page}
+
+## Bio
+
+I’m a PhD candidate in **computational cosmology** at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) in Paris. I build **differentiable, distributed cosmological simulations** for **full-field weak-lensing inference**, with an eye toward **LSST** to constrain cosmological parameters.
+
+I’m also part of the **Simons Observatory**, working on **CMB component separation**. I’m particularly interested in modeling the **spatial variability of foreground spectral indices** and using the **FURAX** framework to reduce bias on the tensor-to-scalar ratio ***r*** in **full-sky** analyses.
+
+I am also interested in combining **CMB** and **large-scale structure** datasets for **cross-survey** analyses to tighten constraints and improve systematics control.
+
+My work sits at the interface of **cosmological modeling** and **high-performance computing**—distributing workloads with **JAX** and **NCCL**, and using modern **automatic differentiation** to build end-to-end differentiable models. Tools I lean on include **C++** and **CUDA**.
+
+Before CNRS, I worked in industry at **Dassault Systèmes** as an infrastructure engineer on **CATIA** and **SOLIDWORKS**; earlier, I was a **data acquisition engineer** at **Renault**, focusing on **ADAS** sensor data collection and pipelines for algorithm development.
+
+
+<p></p>
+
+## Projects & Packages
+
+- [jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — Distributed 3D FFTs and multi-GPU domain decomposition on large 3D grids in JAX.
+- [JaxPM](https://github.com/DifferentiableUniverseInitiative/JaxPM) — Particle–mesh cosmological simulation toolkit in JAX (Distributed).
+- [FURAX](https://github.com/CMBSciPol/furax) — “Framework for Unified and Robust data Analysis with JAX” for inverse problems in astro/cosmo.
+- [jax-healpy](https://github.com/CMBSciPol/jax-healpy) — JAX-native HEALPix/Healpy utilities, GPU-ready and autodiff-aware.
+- [jax-grid-search](https://github.com/ASKabalan/jax-grid-search) — Distributed grid search + gradient-based optimization built on JAX/Optax. (Also on [PyPI](https://pypi.org/project/jax-grid-search/).)
+
+### Contributions
+- [S2FFT](https://github.com/astro-informatics/s2fft) — Differentiable spherical/Wigner transforms (JAX & PyTorch).  
+  **My contribution:** translated part of the **spherical harmonics** algorithm to **CUDA** to avoid long JAX JIT compile times.
+
+
+:::

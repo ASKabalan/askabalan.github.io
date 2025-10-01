@@ -1,0 +1,13 @@
+---
+title: Papers
+page-layout: full
+---
+
+
+# 2025
+
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. jaxDecomp: JAX Library for 3D Domain Decomposition and Parallel FFTs. Submitted to JOSS.
+
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations. In preparation.
+
+- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2025. A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites. In preparation.

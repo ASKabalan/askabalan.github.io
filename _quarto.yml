@@ -1,0 +1,29 @@
+project:
+  type: website
+  render: 
+    - "*.qmd"          # start broad…
+    - "!EXAMPLE/**"   # …then exclude a folder  resources:
+  resources: 
+    - assets/avatar.jpg
+    - assets/BACKGROUND.png
+    - assets/cv/Wassim_Kabalan_CV.pdf
+
+website:
+  title: "Wassim Kabalan"
+  site-url: https://example.com
+  description: "Lorem ipsum placeholder site description."
+  open-graph:
+    locale: en_US
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Papers"
+        href: papers
+      - text: "CV"
+        href: cv
+
+format:
+  html:
+    theme: [sandstone]
+    css: assets/styles.css
