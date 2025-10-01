@@ -28,7 +28,7 @@ format:
 ::: {.column-page}
 
 ## Bio
-TEST
+
 I’m a PhD candidate in **computational cosmology** at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) in Paris. I build **differentiable, distributed cosmological simulations** for **full-field weak-lensing inference**, with an eye toward **LSST** to constrain cosmological parameters.
 
 I’m also part of the **Simons Observatory**, working on **CMB component separation**. I’m particularly interested in modeling the **spatial variability of foreground spectral indices** and using the **FURAX** framework to reduce bias on the tensor-to-scalar ratio ***r*** in **full-sky** analyses.
