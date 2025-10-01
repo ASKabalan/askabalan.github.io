@@ -15,7 +15,7 @@ format:
 
 - [![](../assets/github.png){width="16"} GitHub](https://github.com/ASKabalan/)
 - [![](../assets/linkedin.jpeg){width="16"} LinkedIn](https://www.linkedin.com/in/wassimkabalan/)
-- [{{< fa envelope >}} Email](mailto:wassim@apc.in2p3.fr)  
+- [Email](mailto:wassim@apc.in2p3.fr)  
 
 ---
 
