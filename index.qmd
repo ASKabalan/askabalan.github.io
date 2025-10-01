@@ -10,6 +10,9 @@ about:
     - text: GitHub
       icon: github
       url: "https://github.com/askabalan"
+    - text: Email
+      icon: envelope
+      url: "mailto:wassim@apc.in2p3.fr"
     - text: Talks
       icon: presentation
       url: "https://askabalan.github.io/slides/"

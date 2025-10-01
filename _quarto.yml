@@ -10,8 +10,8 @@ project:
 
 website:
   title: "Wassim Kabalan"
-  site-url: https://example.com
-  description: "Lorem ipsum placeholder site description."
+  site-url: https://askabalan.github.io
+  description: "My personal website showcasing research in computational cosmology, publications, and projects in differentiable simulations and HPC."
   open-graph:
     locale: en_US
   navbar:
