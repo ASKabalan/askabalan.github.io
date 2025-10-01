@@ -17,7 +17,7 @@ website:
   navbar:
     right:
       - text: "Home"
-        href: index.html
+        href: index.qmd
       - text: "Papers"
         href: papers
       - text: "CV"
