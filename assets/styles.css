@@ -9,25 +9,4 @@ body::before {
   pointer-events: none;
 }
 
-/* Global typography: slightly larger base font */
-body {
-  font-size: 1.25rem; /* 25% larger than default */
-  line-height: 1.7;
-}
-
-
-/* Navbar styling - larger menu bar */
-.navbar {
-  font-size: 1.15rem; /* Larger navbar text */
-}
-
-.navbar-nav .nav-link {
-  padding: 0.75rem 1rem; /* More padding = taller navbar */
-  font-size: 1.15rem;
-}
-
-.navbar-brand {
-  font-size: 1.3rem; /* Larger site title */
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
+/* Rely on theme defaults for typography so the site matches mm218.dev */
