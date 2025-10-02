@@ -25,5 +25,5 @@ website:
 
 format:
   html:
-    theme: [sandstone]
+    theme: [Flatly]
     css: assets/styles.css
