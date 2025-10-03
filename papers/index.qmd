@@ -11,3 +11,9 @@ page-layout: full
 - **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations. In preparation.
 
 - **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2025. A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites. In preparation.
+
+# 2024
+
+- Spagnoletti, A., Boucaud, A., Huertas-Company, M., **Kabalan, W.**, and Biswas, B. 2024. [Bayesian Deconvolution of Astronomical Images with Diffusion Models: Quantifying Prior-Driven Features in Reconstructions](https://arxiv.org/abs/2411.19158). arXiv:2411.19158 [astro-ph.IM].
+
+- Sommer, K., **Kabalan, W.**, and Brunet, R. 2024. [Infrared Radiometric Image Classification and Segmentation of Cloud Structure Using Deep-learning Framework for Ground-based Infrared Thermal Camera Observations](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-101/). EGUsphere Preprint 2024-101. https://doi.org/10.5194/egusphere-2024-101.

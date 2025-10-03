@@ -101,21 +101,15 @@ format:
 
 ## Open-Source Projects
 
-- **jaxDecomp** — JAX bindings to NVIDIA **cuDecomp** for multi-GPU domain decomposition on large 3D grids.  
-  Repo: https://github.com/DifferentiableUniverseInitiative/jaxDecomp
-- **JaxPM** — Particle-mesh cosmological simulations in JAX (multi-accelerator friendly).  
-  Repo: https://github.com/DifferentiableUniverseInitiative/JaxPM
-- **FURAX** — Building blocks for inverse problems in astro/cosmo with JAX; used for **CMB** component separation.  
-  Repo: https://github.com/CMBSciPol/furax
-- **jax-healpy** — JAX-native HEALPix/Healpy utilities (GPU-ready, autodiff-aware).  
-  Repo: https://github.com/CMBSciPol/jax-healpy
-- **jax-grid-search** — Distributed grid search/optimization on top of JAX/Optax.  
-  Repo: https://github.com/ASKabalan/jax-grid-search
+- [**jaxDecomp**](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — JAX bindings to NVIDIA **cuDecomp** for multi-GPU domain decomposition on large 3D grids.
+- [**JaxPM**](https://github.com/DifferentiableUniverseInitiative/JaxPM) — Particle-mesh cosmological simulations in JAX (multi-accelerator friendly).
+- [**FURAX**](https://github.com/CMBSciPol/furax) — Building blocks for inverse problems in astro/cosmo with JAX; used for **CMB** component separation.
+- [**jax-healpy**](https://github.com/CMBSciPol/jax-healpy) — JAX-native HEALPix/Healpy utilities (GPU-ready, autodiff-aware).
+- [**jax-grid-search**](https://github.com/ASKabalan/jax-grid-search) — Distributed grid search/optimization on top of JAX/Optax.
 
 **Contributions**  
-- **S2FFT** — Differentiable spherical/Wigner transforms (JAX & PyTorch).  
-  *My contribution:* translated part of the **spherical harmonics** algorithm to **CUDA** to avoid long **JAX** JIT compile times.  
-  Repo: https://github.com/astro-informatics/s2fft
+- [**S2FFT**](https://github.com/astro-informatics/s2fft) — Differentiable spherical/Wigner transforms (JAX & PyTorch).  
+  *My contribution:* translated part of the **spherical harmonics** algorithm to **CUDA** to avoid long **JAX** JIT compile times.
 
 ---
 
@@ -175,6 +169,20 @@ format:
 <td class="cv-date"></td>
 <td class="cv-content">
 **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2025. A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites. In preparation.
+</td>
+</tr>
+
+<tr>
+<td class="cv-date">2024</td>
+<td class="cv-content">
+Spagnoletti, A., Boucaud, A., Huertas-Company, M., **Kabalan, W.**, and Biswas, B. 2024. [Bayesian Deconvolution of Astronomical Images with Diffusion Models: Quantifying Prior-Driven Features in Reconstructions](https://arxiv.org/abs/2411.19158). arXiv:2411.19158 [astro-ph.IM].
+</td>
+</tr>
+
+<tr>
+<td class="cv-date"></td>
+<td class="cv-content">
+Sommer, K., **Kabalan, W.**, and Brunet, R. 2024. [Infrared Radiometric Image Classification and Segmentation of Cloud Structure Using Deep-learning Framework for Ground-based Infrared Thermal Camera Observations](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-101/). EGUsphere Preprint 2024-101. https://doi.org/10.5194/egusphere-2024-101.
 </td>
 </tr>
 </table>
