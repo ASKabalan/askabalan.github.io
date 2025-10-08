@@ -25,6 +25,8 @@ Computational cosmologist building differentiable, distributed cosmological simu
 
 ---
 
+[PDF version](Wassim_Kabalan_CV.pdf) 
+
 ## Education
 
 <table class="cv-experience">
@@ -105,6 +107,8 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 
 ---
 
+
+
 ## Talks & Tutorials
 
 - **JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations** • Bayesian Deep Learning Workshop • May 20–23, 2025 • [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
@@ -120,20 +124,15 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 
 ## Open-Source Software
 
-- [**jaxDecomp**](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — Author. JAX bindings to NVIDIA cuDecomp for multi-GPU 3D domain decomposition and distributed FFTs using NCCL. Enables large-scale cosmological simulations on GPU clusters.
+- **[jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp)** — **Author**. JAX based code for multi-GPU 3D domain decomposition and distributed FFTs (NCCL); scales cosmology workloads on GPU clusters.
+- **[JaxPM](https://github.com/DifferentiableUniverseInitiative/JaxPM)** — **Main contributor/Maintainer**. Differentiable particle-mesh simulations in JAX; multi-accelerator support for scalable forward modeling and gradient-based inference.
+- **[FURAX](https://github.com/CMBSciPol/furax)** — **Main contributor/Maintainer**. JAX building blocks for inverse problems; used for CMB component separation at Simons Observatory.
+- **[jax-healpy](https://github.com/CMBSciPol/jax-healpy)** — **Main contributor/Maintainer**. JAX-native HEALPix utilities for CMB/spherical data; GPU- and autodiff-ready.
+- **[jax-grid-search](https://github.com/ASKabalan/jax-grid-search)** — **Author**. Distributed grid search and gradient-based optimization on JAX/Optax.
 
-- [**JaxPM**](https://github.com/DifferentiableUniverseInitiative/JaxPM) — Main Contributor/Maintainer. Differentiable particle-mesh cosmological simulations in JAX. Multi-accelerator support for scalable forward modeling and gradient-based inference.
+**Contributions**  
+- **[S2FFT](https://github.com/astro-informatics/s2fft)** — **Contributor**. Differentiable spherical & Wigner transforms (JAX/PyTorch). *Contribution:* CUDA spherical harmonics to reduce JAX JIT time.
 
-- [**FURAX**](https://github.com/CMBSciPol/furax) — Contributor/Maintainer. Framework for Unified and Robust data Analysis with JAX. Building blocks for inverse problems in astrophysics/cosmology; used for CMB component separation at Simons Observatory.
-
-- [**jax-healpy**](https://github.com/CMBSciPol/jax-healpy) — Contributor/Maintainer. JAX-native HEALPix utilities for CMB and spherical data analysis. GPU compatible and fully compatible with automatic differentiation.
-
-- [**jax-grid-search**](https://github.com/ASKabalan/jax-grid-search) — Author. Distributed grid search and gradient-based optimization on top of JAX/Optax.
-
-**Contributions**
-
-- [**S2FFT**](https://github.com/astro-informatics/s2fft) — Contributor. Differentiable spherical and Wigner transforms (JAX & PyTorch).
-  *Contribution:* Translated spherical harmonics algorithm to **CUDA** to reduce JAX JIT compilation time for large-scale analyses.
 
 ---
 
