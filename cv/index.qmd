@@ -111,6 +111,8 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 
 ## Talks & Tutorials
 
+- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025
+
 - **JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations** • Bayesian Deep Learning Workshop • May 20–23, 2025 • [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
 
 - **Bayesian Inference for Cosmology with JAX** [Tutorial] • Bayesian Deep Learning Workshop • May 20–23, 2025 • [slides](https://askabalan.github.io/slides/2025_05_BDL_School/index.html#/title-slide)
@@ -131,7 +133,7 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 - **[jax-grid-search](https://github.com/ASKabalan/jax-grid-search)** — **Author**. Distributed grid search and gradient-based optimization on JAX/Optax.
 
 **Contributions**  
-- **[S2FFT](https://github.com/astro-informatics/s2fft)** — **Contributor**. Differentiable spherical & Wigner transforms (JAX/PyTorch). *Contribution:* CUDA spherical harmonics to reduce JAX JIT time.
+- **[S2FFT](https://github.com/astro-informatics/s2fft)** — **Contributor**. Differentiable spherical & Wigner transforms (JAX & PyTorch). *Contribution:* CUDA spherical harmonics to reduce JAX JIT time.
 
 
 ---
@@ -144,7 +146,7 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
   *Contribution:* Set up JAX-based deconvolution code and ran multi-node simulations on Jean Zay HPC cluster.
 
 - Sommer, K., **Kabalan, W.**, and Brunet, R. 2024. [Infrared Radiometric Image Classification and Segmentation of Cloud Structure Using Deep-learning Framework for Ground-based Infrared Thermal Camera Observations](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-101/). EGUsphere Preprint 2024-101.
-  *Contribution:* Created and ran JAX-based U-Net model on Jean Zay HPC. Code: [github.com/ASKabalan/infrared-cloud-](https://github.com/ASKabalan/infrared-cloud-)
+  *Contribution:* Created and ran JAX-based U-Net model on Jean Zay HPC. Code: [github.com/ASKabalan/infrared-cloud-detection](https://github.com/ASKabalan/infrared-cloud-detection)
 
 **Software**
 
@@ -152,9 +154,9 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 
 **In Preparation**
 
-- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations.
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2026. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations.
 
-- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2025. A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites.
+- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2026. A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites.
 
 
 

@@ -6,7 +6,7 @@ about:
   links:
     - text: LinkedIn
       icon: linkedin
-      url: "https://fr.linkedin.com/in/wassimkabalan"
+      url: "https://www.linkedin.com/in/wassimkabalan/"
     - text: GitHub
       icon: github
       url: "https://github.com/askabalan"
@@ -29,26 +29,26 @@ format:
 
 ## Bio
 
-I’m a PhD candidate in **computational cosmology** at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) in Paris. I build **differentiable, distributed cosmological simulations** for **full-field weak-lensing inference**, with an eye toward **LSST** to constrain cosmological parameters.
+Here is the complete, final biography for your website. I have integrated your advisors into the opening section and maintained the specific technical focus on LSST-scale inference and LiteBIRD/CMB analysis.
 
-I’m also part of the **Simons Observatory**, working on **CMB component separation**. I’m particularly interested in modeling the **spatial variability of foreground spectral indices** and using the **FURAX** framework to reduce bias on the tensor-to-scalar ratio ***r*** in **full-sky** analyses.
+I am an **R&D Engineer** and **PhD Candidate** (expected **Oct 2026**) in computational cosmology at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité. I am advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse** .
 
-I am also interested in combining **CMB** and **large-scale structure** datasets for **cross-survey** analyses to tighten constraints and improve systematics control.
+My thesis, ***“Automatically differentiable and distributed probabilistic programming for weak-lensing inference,”*** aims to bridge the gap between mathematical physics and industrial-grade software engineering. I develop **differentiable N-body solvers** (using **JaxPM**) capable of running at **LSST scale**. By leveraging **multi-node domain decomposition** and **automatic differentiation**, my work enables **hierarchical Bayesian inference** directly over forward simulations of large-scale structure, paving the way for **full-field inference** and near-optimal extraction of cosmological information .
 
-My work sits at the interface of **cosmological modeling** and **high-performance computing**—distributing workloads with **JAX** and **NCCL**, and using modern **automatic differentiation** to build end-to-end differentiable models. Tools I lean on include **C++** and **CUDA**.
+As a member of the **Simons Observatory** , I also work on **CMB component separation**. I am particularly focused on modeling the **spatial variability of foreground spectral indices** to reduce bias on the tensor-to-scalar ratio . To this end, I develop the **FURAX** framework , building a fast, scalable minimizer designed to be efficient with extremely noisy data for upcoming **full-sky** missions like **LiteBIRD**. I am also interested in combining **CMB** and **large-scale structure** datasets for **cross-survey** analyses to tighten constraints and improve systematics control .
 
-Before CNRS, I worked in industry at **Dassault Systèmes** as an infrastructure engineer on **CATIA** and **SOLIDWORKS**; earlier, I was a **data acquisition engineer** at **Renault**, focusing on **ADAS** sensor data collection and pipelines for algorithm development.
+My work relies heavily on **High-Performance Computing**—distributing workloads on massive GPU architectures using **JAX**, **NCCL**, and **MPI** . I author and maintain tools like **jaxDecomp** (distributed 3D FFTs) to make petascale analysis accessible and differentiable .
 
-
-<p></p>
+Prior to my PhD, I spent 5 years in industry. I was a **Software Infrastructure Engineer** at **Dassault Systèmes**, optimizing C++/Linux pipelines for **CATIA** , and a **Data Acquisition Engineer** at **Renault** .
 
 ## Projects & Packages
 
-- [jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — Distributed 3D FFTs and multi-GPU domain decomposition on large 3D grids in JAX.
+- [jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — Distributed 3D FFTs and multi-GPU domain decomposition on large 3D grids in JAX. *(Submitted to JOSS, 2025)*.
+- [FURAX_CS](https://github.com/ASKabalan/furax-compsep-paper) — Component separation pipeline for the Simons Observatory and LiteBird using FURAX. *(In preparation, 2024)*.
 - [JaxPM](https://github.com/DifferentiableUniverseInitiative/JaxPM) — Particle–mesh cosmological simulation toolkit in JAX (Distributed).
 - [FURAX](https://github.com/CMBSciPol/furax) — “Framework for Unified and Robust data Analysis with JAX” for inverse problems in astro/cosmo.
 - [jax-healpy](https://github.com/CMBSciPol/jax-healpy) — JAX-native HEALPix/Healpy utilities, GPU-ready and autodiff-aware.
-- [jax-grid-search](https://github.com/ASKabalan/jax-grid-search) — Distributed grid search + gradient-based optimization built on JAX/Optax. (Also on [PyPI](https://pypi.org/project/jax-grid-search/).)
+- [jax-grid-search](https://github.com/CMBSciPol/jax-grid-search) — Distributed grid search + gradient-based optimization built on JAX/Optax. (Also on [PyPI](https://pypi.org/project/jax-grid-search/).)
 
 ### Contributions
 - [S2FFT](https://github.com/astro-informatics/s2fft) — Differentiable spherical/Wigner transforms (JAX & PyTorch).  
