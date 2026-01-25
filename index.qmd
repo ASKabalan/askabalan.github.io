@@ -29,8 +29,6 @@ format:
 
 ## Bio
 
-Here is the complete, final biography for your website. I have integrated your advisors into the opening section and maintained the specific technical focus on LSST-scale inference and LiteBIRD/CMB analysis.
-
 I am an **R&D Engineer** and **PhD Candidate** (expected **Oct 2026**) in computational cosmology at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité. I am advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse** .
 
 My thesis, ***“Automatically differentiable and distributed probabilistic programming for weak-lensing inference,”*** aims to bridge the gap between mathematical physics and industrial-grade software engineering. I develop **differentiable N-body solvers** (using **JaxPM**) capable of running at **LSST scale**. By leveraging **multi-node domain decomposition** and **automatic differentiation**, my work enables **hierarchical Bayesian inference** directly over forward simulations of large-scale structure, paving the way for **full-field inference** and near-optimal extraction of cosmological information .
