@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-description: "Wassim Kabalan — PhD student in computational cosmology (APC, CNRS/IN2P3)"
+description: "Wassim Kabalan — R&D Engineer & PhD Candidate (APC, CNRS/IN2P3)"
 page-layout: article
 toc: true
 toc-title: "Contents"
@@ -13,30 +13,28 @@ format:
 
 # Wassim Kabalan
 
-**PhD Candidate in Computational Cosmology**
+**R&D Engineer & PhD Candidate in Computational Cosmology**
 
-Computational cosmologist building **differentiable, distributed cosmology software (JAX/NCCL/CUDA)** for full-field inference, with a focus on **open-source** and **HPC at scale**.
+I am an R&D Engineer and PhD Candidate at **APC (CNRS/IN2P3)**. My work bridges the gap between mathematical physics and industrial-grade software engineering. I specialize in **differentiable programming (adjoint-based methods)**, **simulation pipelines**, and **inverse problems** on massive GPU architectures.
 
-**Contact**  
-[![GitHub - ASKabalan](https://img.shields.io/badge/GitHub-ASKabalan-181717?style=flat&logo=github&logoColor=white)](https://github.com/ASKabalan/)
+**Contact** [![GitHub - ASKabalan](https://img.shields.io/badge/GitHub-ASKabalan-181717?style=flat&logo=github&logoColor=white)](https://github.com/ASKabalan/)
 [![LinkedIn - Wassim Kabalan](https://img.shields.io/badge/LinkedIn-Wassim%20Kabalan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wassimkabalan/)
 [![Email - wassim@apc.in2p3.fr](https://img.shields.io/badge/Email-wassim%40apc.in2p3.fr-555?style=flat)](mailto:wassim@apc.in2p3.fr)
 
-
 ---
 
-[PDF version](Wassim_Kabalan_CV.pdf) 
+[PDF version](Wassim_Kabalan_CV.pdf)
 
 ## Education
 
 <table class="cv-experience">
 <tr>
-<td class="cv-date">Nov 2023 –<br>Dec 2026<br>(expected)</td>
+<td class="cv-date">Dec 2023 –<br>Oct 2026<br>(expected)</td>
 <td class="cv-content">
 **PhD, Physics of the Universe**, *Université Paris Cité*, Paris, France<br>
 APC, CNRS/IN2P3<br>
-Thesis: *Automatically differentiable and distributed Probabilistic Programming for wEAk gravitational LensING inference*<br>
-Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
+Thesis: *Automatically differentiable and distributed probabilistic programming for weak-lensing inference.*<br>
+Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 </td>
 </tr>
 
@@ -64,65 +62,67 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 <tr>
   <td class="cv-date">Dec 2023 –<br>Present</td>
   <td class="cv-content">
-    <strong>PhD Researcher in Cosmology</strong>, <em>APC, CNRS/IN2P3</em>, Paris, France<br>
-    <em>Thesis goal:</em>
+    <strong>Graduate Researcher (PhD)</strong>, <em>APC, CNRS/IN2P3</em>, Paris, France<br>
+    <em>Focus: Computational Cosmology, HPC & Inverse Problems</em>
     <ul>
-      <li>Develop <strong>differentiable, distributed N-body simulations</strong> as weak-lensing forward models to enable <strong>gradient-based cosmological inference</strong> at <strong>LSST</strong> scale.</li>
-      <li>Implement a <strong>CMB component-separation technique</strong> with <strong>spatially varying foreground spectral parameters</strong> to reduce bias in the <em>tensor-to-scalar ratio (r)</em> for <strong>full-sky</strong> missions (e.g., <strong>LiteBIRD</strong>).</li>
+      <li><strong>Differentiable Simulation (LSST):</strong> Developing <strong>JaxPM</strong>, a differentiable N-body forward model enabling gradient-based calibration of high-dimensional physical models using adjoint methods (via JAX AD).</li>
+      <li><strong>Inverse Problems (Simons Observatory):</strong> Solving large-scale inverse problems for CMB component separation. Implementing optimization workflows for <strong>spatially varying parameters</strong> to maximize signal recovery.</li>
+      <li><strong>HPC Infrastructure:</strong> Author of <strong>jaxDecomp</strong>, enabling multi-node domain decomposition and distributed FFTs on GPU clusters (binding to NVIDIA cuDecomp).</li>
     </ul>
-    <em>Skills:</em> JAX, NCCL, C++, CUDA, HPC, automatic differentiation, Bayesian inference, NumPyro, CMB, weak lensing
   </td>
 </tr>
-
 
 <tr>
   <td class="cv-date">Oct 2019 –<br>Oct 2023</td>
   <td class="cv-content">
     <strong>Software Infrastructure Engineer</strong>, <em>Dassault Systèmes</em>, Vélizy-Villacoublay, France<br>
     <ul>
-      <li>Optimized CATIA cache/conversion pipeline (<strong>C++/Linux</strong>); profiling-driven algorithmic changes improved throughput and robustness for large CAD data flows.</li>
-      <li>Led Linux convergence for a large <strong>C++</strong> rich client.</li>
-      <li>Built <strong>GitLab CI/CD</strong> for multi-team releases; automated testing, packaging, and deployments.</li>
+      <li>Optimized CATIA cache/conversion pipeline (<strong>C++/Linux</strong>) for very large CAD data flows.</li>
+      <li>Led Linux convergence for a large C++ rich client.</li>
+      <li>Built <strong>GitLab CI/CD</strong> pipelines for automated testing, packaging, and releases.</li>
     </ul>
-    <em>Skills:</em> C++, performance profiling, cache &amp; I/O optimization, Linux, CI/CD, test-driven development
   </td>
 </tr>
-
-
 
 <tr>
   <td class="cv-date">Jan 2019 –<br>Oct 2019</td>
   <td class="cv-content">
     <strong>Data Acquisition Engineer</strong>, <em>SERMA (for Renault)</em>, Guyancourt, France<br>
     <ul>
-      <li>Wrote a <strong>C</strong> library to decode binary sensor data from automotive <strong>ECUs</strong>.</li>
-      <li>Built a <strong>parallel post-processing</strong> pipeline in <strong>Python (multiprocessing)</strong> on an <strong>88-core</strong> server for high-throughput log processing.</li>
-      <li>Designed <strong>automated data-conversion</strong> workflows for <strong>CAN-bus</strong> telemetry and prototype vehicle sensor streams; packaged with <strong>CMake</strong>.</li>
+      <li>Built tooling for high-volume vehicle sensor logs, including a custom <strong>C decoder</strong> for ECU binary data.</li>
+      <li>Developed parallel Python post-processing workflows on an <strong>88-core server</strong> for vehicle network data.</li>
+      <li>Automated conversion pipelines for vehicle network data.</li>
     </ul>
-    <em>Skills:</em> C, Python, multiprocessing, data pipelines, CAN bus, CMake
   </td>
 </tr>
-
 </table>
 
 ---
 
+## Supervision
 
-
-## Talks & Tutorials
-
-- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025
-
-- **JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations** • Bayesian Deep Learning Workshop • May 20–23, 2025 • [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
-
-- **Bayesian Inference for Cosmology with JAX** [Tutorial] • Bayesian Deep Learning Workshop • May 20–23, 2025 • [slides](https://askabalan.github.io/slides/2025_05_BDL_School/index.html#/title-slide)
-
-- **Massively Parallel Computing in Cosmology with JAX** [Tutorial] • CoPhy 2024 • Nov 18–20, 2024 • [slides](https://askabalan.github.io/slides/2024_11_CoPhy/index.html#/title-slide)
-
-- **Differentiable and distributed Particle-Mesh n-body simulations** • LSST FR 2024 • Jun 10–12, 2024 • [slides](https://askabalan.github.io/slides/2024_06_LSST_FR/index.html#/title-slide)
+<table class="cv-experience">
+<tr>
+<td class="cv-date">Jan 2025 –<br>Jun 2025</td>
+<td class="cv-content">
+**Binh Nguyen**, Master 1 Student<br>
+*Project:* Inference of Weak-Lensing Parameters from Blended Galaxies Using Generative Neural Networks.<br>
+*Outcome:* Talk at Rencontres du Vietnam.
+</td>
+</tr>
+</table>
 
 ---
 
+## Talks & Tutorials
+
+- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+- **JAXPM: Scalable and Differentiable Particle-Mesh Simulations** • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+- **Bayesian Inference for Cosmology with JAX** [Tutorial] • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+- **Massively Parallel Computing in Cosmology with JAX** [Tutorial] • CoPhy 2024 • Nov 2024 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+- **Differentiable and Distributed Particle-Mesh N-body Simulations** • LSST France 2024 • Jun 2024 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+
+---
 
 ## Open-Source Software
 
@@ -135,10 +135,9 @@ Advisors: Eric Aubourg, Josquin Errard, Alexandre Boucaud, François Lanusse
 **Contributions**  
 - **[S2FFT](https://github.com/astro-informatics/s2fft)** — **Contributor**. Differentiable spherical & Wigner transforms (JAX & PyTorch). *Contribution:* CUDA spherical harmonics to reduce JAX JIT time.
 
-
 ---
 
-## Publications & Products
+## Publications
 
 **Refereed**
 
