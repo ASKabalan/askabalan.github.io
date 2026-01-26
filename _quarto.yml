@@ -2,7 +2,6 @@ project:
   type: website
   render: 
     - "*.qmd"          # start broad…
-    - "!EXAMPLE/**"   # …then exclude a folder  resources:
   resources: 
     - assets/avatar.jpg
     - assets/BACKGROUND.png

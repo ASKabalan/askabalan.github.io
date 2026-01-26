@@ -14,10 +14,10 @@ about:
       icon: envelope
       url: "mailto:wassim@apc.in2p3.fr"
     - text: Talks
-      icon: presentation
+      icon: mic-fill
       url: "https://askabalan.github.io/slides/"
     - text: arXiv
-      icon: file
+      icon: arxiv
       url: "https://arxiv.org/search/?query=wassim+kabalan&searchtype=all&source=header"
 comments: false
 format:
