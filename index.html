@@ -72,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="stylesheet" href="assets/index.css">
 <meta property="og:title" content="Wassim Kabalan">
+<meta property="og:description" content="My personal website showcasing research in computational cosmology, publications, and projects in differentiable simulations and HPC.">
 <meta property="og:image" content="https://askabalan.github.io/assets/avatar.jpg">
 <meta property="og:site_name" content="Wassim Kabalan">
 <meta property="og:locale" content="en_US">
@@ -100,11 +101,15 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers"> 
-<span class="menu-text">Papers</span></a>
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv"> 
 <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://askabalan.github.io/slides/"> 
+<span class="menu-text">Talks</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,10 +148,6 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">Email</span>
   </a>
-  <a href="https://askabalan.github.io/slides/" class="about-link" rel="" target="">
-    <i class="bi bi-mic-fill"></i>
-     <span class="about-link-text">Talks</span>
-  </a>
   <a href="https://arxiv.org/search/?query=wassim+kabalan&amp;searchtype=all&amp;source=header" class="about-link" rel="" target="">
     <i class="bi bi-arxiv"></i>
      <span class="about-link-text">arXiv</span>
@@ -154,8 +155,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents page-columns page-full"><main class="content page-columns page-full" id="quarto-document-content">
-<div class="column-page">
-<section id="bio" class="level2">
+<section id="bio" class="level2 column-page">
 <h2 data-anchor-id="bio">Bio</h2>
 <p>I am an <strong>R&amp;D Engineer</strong> and <strong>PhD Candidate</strong> (expected <strong>Oct 2026</strong>) in computational cosmology at the AstroParticule &amp; Cosmology Laboratory (APC, <strong>CNRS/IN2P3</strong>) and Université Paris Cité. I am advised by <strong>Eric Aubourg</strong>, <strong>Alexandre Boucaud</strong>, <strong>Josquin Errard</strong>, and <strong>François Lanusse</strong> .</p>
 <p>My thesis, <strong><em>“Automatically differentiable and distributed probabilistic programming for weak-lensing inference,”</em></strong> aims to bridge the gap between mathematical physics and industrial-grade software engineering. I develop <strong>differentiable N-body solvers</strong> (using <strong>JaxPM</strong>) capable of running at <strong>LSST scale</strong>. By leveraging <strong>multi-node domain decomposition</strong> and <strong>automatic differentiation</strong>, my work enables <strong>hierarchical Bayesian inference</strong> directly over forward simulations of large-scale structure, paving the way for <strong>full-field inference</strong> and near-optimal extraction of cosmological information .</p>
@@ -163,25 +163,6 @@ ul.task-list li input[type="checkbox"] {
 <p>My work relies heavily on <strong>High-Performance Computing</strong>—distributing workloads on massive GPU architectures using <strong>JAX</strong>, <strong>NCCL</strong>, and <strong>MPI</strong> . I author and maintain tools like <strong>jaxDecomp</strong> (distributed 3D FFTs) to make petascale analysis accessible and differentiable .</p>
 <p>Prior to my PhD, I spent 5 years in industry. I was a <strong>Software Infrastructure Engineer</strong> at <strong>Dassault Systèmes</strong>, optimizing C++/Linux pipelines for <strong>CATIA</strong> , and a <strong>Data Acquisition Engineer</strong> at <strong>Renault</strong> .</p>
 </section>
-<section id="projects-packages" class="level2">
-<h2 data-anchor-id="projects-packages">Projects &amp; Packages</h2>
-<ul>
-<li><a href="https://github.com/DifferentiableUniverseInitiative/jaxDecomp">jaxDecomp</a> — Distributed 3D FFTs and multi-GPU domain decomposition on large 3D grids in JAX. <em>(Submitted to JOSS, 2025)</em>.</li>
-<li><a href="https://github.com/ASKabalan/furax-compsep-paper">FURAX_CS</a> — Component separation pipeline for the Simons Observatory and LiteBird using FURAX. <em>(In preparation, 2026)</em>.</li>
-<li><a href="https://github.com/DifferentiableUniverseInitiative/JaxPM">JaxPM</a> — Particle–mesh cosmological simulation toolkit in JAX (Distributed).</li>
-<li><a href="https://github.com/CMBSciPol/furax">FURAX</a> — “Framework for Unified and Robust data Analysis with JAX” for inverse problems in astro/cosmo.</li>
-<li><a href="https://github.com/CMBSciPol/jax-healpy">jax-healpy</a> — JAX-native HEALPix/Healpy utilities, GPU-ready and autodiff-aware.</li>
-<li><a href="https://github.com/CMBSciPol/jax-grid-search">jax-grid-search</a> — Distributed grid search + gradient-based optimization built on JAX/Optax. (Also on <a href="https://pypi.org/project/jax-grid-search/">PyPI</a>.)</li>
-</ul>
-<section id="contributions" class="level3">
-<h3 data-anchor-id="contributions">Contributions</h3>
-<ul>
-<li><a href="https://github.com/astro-informatics/s2fft">S2FFT</a> — Differentiable spherical/Wigner transforms (JAX &amp; PyTorch).<br>
-<strong>My contribution:</strong> translated part of the <strong>spherical harmonics</strong> algorithm to <strong>CUDA</strong> to avoid long JAX JIT compile times.</li>
-</ul>
-</section>
-</section>
-</div>
 
 
 </main></div>
