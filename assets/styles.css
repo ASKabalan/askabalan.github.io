@@ -4,9 +4,61 @@ body::before {
   position: fixed;
   inset: 0;
   background: url("BACKGROUND.png") center/cover no-repeat fixed;
-  opacity: 0.09;            /* 9% opacity */
+  opacity: 0.06;            /* 9% opacity */
   z-index: -1;             /* stay behind page content */
   pointer-events: none;
 }
 
 /* Rely on theme defaults for typography so the site matches mm218.dev */
+/* Make the navbar float and have a glass effect */
+/* --- Dark Blue Gradient Navbar --- */
+
+
+/* NAVIGATION BAR STYLES */
+
+.navbar {
+    /* The Gradient: Dark Navy -> Lighter Midnight Blue */
+    background: linear-gradient(135deg, rgba(0, 31, 77, 0.95) 0%, rgba(4, 121, 59, 0.644) 100%) !important;
+    
+    /* Keep the blur to smooth out the background pattern behind it */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* A subtle bottom border to separate it from the content */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* --- Text Color Fixes (Crucial for Dark Backgrounds) --- */
+
+/* 1. Make the Site Title (Name) White */
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* 2. Make the Navigation Links White */
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important; /* Slightly softened white */
+    transition: color 0.3s ease;
+}
+
+/* 3. Gold Hover Effect (Matches your background pattern) */
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    color: #d4af37 !important; /* Gold */
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5); /* Glowing effect */
+}
+
+/* 4. Fix the search icon (if you use one) to be white */
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+
+img.about-image {
+    border-radius: 50%; /* Makes it a circle */
+    border: 4px solid white; /* Adds a clean border */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Lifts it off the page */
+}
