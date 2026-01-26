@@ -13,9 +13,6 @@ about:
     - text: Email
       icon: envelope
       url: "mailto:wassim@apc.in2p3.fr"
-    - text: Talks
-      icon: mic-fill
-      url: "https://askabalan.github.io/slides/"
     - text: arXiv
       icon: arxiv
       url: "https://arxiv.org/search/?query=wassim+kabalan&searchtype=all&source=header"
@@ -38,19 +35,6 @@ As a member of the **Simons Observatory** , I also work on **CMB component separ
 My work relies heavily on **High-Performance Computing**—distributing workloads on massive GPU architectures using **JAX**, **NCCL**, and **MPI** . I author and maintain tools like **jaxDecomp** (distributed 3D FFTs) to make petascale analysis accessible and differentiable .
 
 Prior to my PhD, I spent 5 years in industry. I was a **Software Infrastructure Engineer** at **Dassault Systèmes**, optimizing C++/Linux pipelines for **CATIA** , and a **Data Acquisition Engineer** at **Renault** .
-
-## Projects & Packages
-
-- [jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — Distributed 3D FFTs and multi-GPU domain decomposition on large 3D grids in JAX. *(Submitted to JOSS, 2025)*.
-- [FURAX_CS](https://github.com/ASKabalan/furax-compsep-paper) — Component separation pipeline for the Simons Observatory and LiteBird using FURAX. *(In preparation, 2026)*.
-- [JaxPM](https://github.com/DifferentiableUniverseInitiative/JaxPM) — Particle–mesh cosmological simulation toolkit in JAX (Distributed).
-- [FURAX](https://github.com/CMBSciPol/furax) — “Framework for Unified and Robust data Analysis with JAX” for inverse problems in astro/cosmo.
-- [jax-healpy](https://github.com/CMBSciPol/jax-healpy) — JAX-native HEALPix/Healpy utilities, GPU-ready and autodiff-aware.
-- [jax-grid-search](https://github.com/CMBSciPol/jax-grid-search) — Distributed grid search + gradient-based optimization built on JAX/Optax. (Also on [PyPI](https://pypi.org/project/jax-grid-search/).)
-
-### Contributions
-- [S2FFT](https://github.com/astro-informatics/s2fft) — Differentiable spherical/Wigner transforms (JAX & PyTorch).  
-  **My contribution:** translated part of the **spherical harmonics** algorithm to **CUDA** to avoid long JAX JIT compile times.
 
 
 :::

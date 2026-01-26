@@ -17,10 +17,12 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Papers"
+      - text: "Publications"
         href: papers
       - text: "CV"
         href: cv
+      - text: "Talks"
+        href: https://askabalan.github.io/slides/
 
 format:
   html:
