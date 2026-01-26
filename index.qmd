@@ -26,13 +26,11 @@ format:
 
 ## Bio
 
-I am an **R&D Engineer** and **PhD Candidate** (expected **Oct 2026**) in computational cosmology at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité. I am advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse** .
+I am an **R&D Engineer** and **PhD Candidate** (expected **Oct 2026**) in computational cosmology at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité. I am advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse**. My thesis, ***“Automatically differentiable and distributed probabilistic programming for weak-lensing inference,”*** aims to bridge the gap between mathematical physics and industrial-grade software engineering. 
 
-My thesis, ***“Automatically differentiable and distributed probabilistic programming for weak-lensing inference,”*** aims to bridge the gap between mathematical physics and industrial-grade software engineering. I develop **differentiable N-body solvers** (using **JaxPM**) capable of running at **LSST scale**. By leveraging **multi-node domain decomposition** and **automatic differentiation**, my work enables **hierarchical Bayesian inference** directly over forward simulations of large-scale structure, paving the way for **full-field inference** and near-optimal extraction of cosmological information .
+I develop **differentiable N-body solvers** (using **JaxPM**) capable of running at **Rubin LSST scale**. By leveraging **multi-node domain decomposition** and **automatic differentiation**, my work enables **hierarchical Bayesian inference** directly over forward simulations of large-scale structure, paving the way for **full-field inference** and near-optimal extraction of cosmological information .
 
-As a member of the **Simons Observatory** , I also work on **CMB component separation**. I am particularly focused on modeling the **spatial variability of foreground spectral indices** to reduce bias on the tensor-to-scalar ratio . To this end, I develop the **FURAX** framework , building a fast, scalable minimizer designed to be efficient with extremely noisy data for upcoming **full-sky** missions like **LiteBIRD**. I am also interested in combining **CMB** and **large-scale structure** datasets for **cross-survey** analyses to tighten constraints and improve systematics control .
-
-My work relies heavily on **High-Performance Computing**—distributing workloads on massive GPU architectures using **JAX**, **NCCL**, and **MPI** . I author and maintain tools like **jaxDecomp** (distributed 3D FFTs) to make petascale analysis accessible and differentiable .
+As a member of the **Simons Observatory** , I also work on **CMB component separation**. I am particularly focused on modeling the **spatial variability of foreground spectral indices** to reduce bias on the tensor-to-scalar ratio . To this end, I develop the **FURAX** framework , building a fast, scalable minimizer designed to be efficient with extremely noisy data for upcoming **full-sky** missions like **LiteBIRD**.
 
 Prior to my PhD, I spent 5 years in industry. I was a **Software Infrastructure Engineer** at **Dassault Systèmes**, optimizing C++/Linux pipelines for **CATIA** , and a **Data Acquisition Engineer** at **Renault** .
 

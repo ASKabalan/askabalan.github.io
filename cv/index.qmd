@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "Curriculum Vitae [<i class='bi bi-download'></i>](Wassim_Kabalan_CV.pdf)"
 description: "Wassim Kabalan — R&D Engineer & PhD Candidate (APC, CNRS/IN2P3)"
 page-layout: article
 toc: true
@@ -17,13 +17,13 @@ format:
 
 I am an R&D Engineer and PhD Candidate at **APC (CNRS/IN2P3)**. My work bridges the gap between mathematical physics and industrial-grade software engineering. I specialize in **differentiable programming (adjoint-based methods)**, **simulation pipelines**, and **inverse problems** on massive GPU architectures.
 
-**Contact** [![GitHub - ASKabalan](https://img.shields.io/badge/GitHub-ASKabalan-181717?style=flat&logo=github&logoColor=white)](https://github.com/ASKabalan/)
+
+[![GitHub - ASKabalan](https://img.shields.io/badge/GitHub-ASKabalan-lightblue?style=flat&logo=github&logoColor=black)](https://github.com/ASKabalan/)
 [![LinkedIn - Wassim Kabalan](https://img.shields.io/badge/LinkedIn-Wassim%20Kabalan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wassimkabalan/)
-[![Email - wassim@apc.in2p3.fr](https://img.shields.io/badge/Email-wassim%40apc.in2p3.fr-555?style=flat)](mailto:wassim@apc.in2p3.fr)
+[![Email - wassim@apc.in2p3.fr](https://img.shields.io/badge/Email-wassim%40apc.in2p3.fr-blue?style=flat)](mailto:wassim@apc.in2p3.fr)
 
 ---
 
-[PDF version](Wassim_Kabalan_CV.pdf)
 
 ## Education
 
