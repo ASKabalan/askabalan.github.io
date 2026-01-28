@@ -1,7 +1,7 @@
 /* Professional CV Styling */
 
 /* Reduce overall font size for CV compactness */
-body {
+#quarto-content {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #333;
