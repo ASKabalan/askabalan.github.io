@@ -129,7 +129,7 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 - **[jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp)** — **Author**. JAX based code for multi-GPU 3D domain decomposition and distributed FFTs (NCCL); scales cosmology workloads on GPU clusters.
 - **[JaxPM](https://github.com/DifferentiableUniverseInitiative/JaxPM)** — **Main contributor/Maintainer**. Differentiable particle-mesh simulations in JAX; multi-accelerator support for scalable forward modeling and gradient-based inference.
 - **[FURAX](https://github.com/CMBSciPol/furax)** — **Main contributor/Maintainer**. JAX building blocks for inverse problems; used for CMB component separation at Simons Observatory.
-- **[FURAX_CS](https://github.com/ASKabalan/furax-cs)** — **Main contributor/Maintainer**. Component separation pipeline for the Simons Observatory and LiteBird using FURAX.
+- **[FURAX_CS](https://github.com/CMBSciPol/furax-cs)** — **Main contributor/Maintainer**. Component separation pipeline for the Simons Observatory and LiteBird using FURAX.
 - **[jax-healpy](https://github.com/CMBSciPol/jax-healpy)** — **Main contributor/Maintainer**. JAX-native HEALPix utilities for CMB/spherical data; GPU- and autodiff-ready.
 - **[jax-grid-search](https://github.com/ASKabalan/jax-grid-search)** — **Author**. Distributed grid search and gradient-based optimization on JAX/Optax.
 
