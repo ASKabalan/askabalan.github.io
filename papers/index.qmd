@@ -8,7 +8,7 @@ page-layout: full
 
 - **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2026. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations. In preparation.
 
-- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2026. A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites. In preparation.
+- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2026. [A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites](https://arxiv.org/abs/2604.08463). arXiv:2604.08463 [astro-ph.CO].
 
 # 2025
 
