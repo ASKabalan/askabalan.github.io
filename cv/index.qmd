@@ -116,7 +116,7 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 
 ## Talks & Tutorials
 
-- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025 [slides](https://askabalan.github.io/slides/2025_10_AI)
+- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
 - **JAXPM: Scalable and Differentiable Particle-Mesh Simulations** • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
 - **Bayesian Inference for Cosmology with JAX** [Tutorial] • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
 - **Massively Parallel Computing in Cosmology with JAX** [Tutorial] • CoPhy 2024 • Nov 2024 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
@@ -135,7 +135,6 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 - **[jax-grid-search](https://github.com/CMBSciPol/jax-grid-search)** — **Author**. Distributed grid search + gradient-based optimization built on JAX/Optax.
 
 **Contributions**
-
 - **[S2FFT](https://github.com/astro-informatics/s2fft)** — **Contributor**. Differentiable spherical & Wigner transforms (JAX & PyTorch). *Contribution:* CUDA spherical harmonics to reduce JAX JIT time.
 
 ---
@@ -156,7 +155,7 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 
 **Preprints**
 
-- **Kabalan, W.**, Rizzieri, A., Sohn, W., Basyrov, A., Boucaud, A., Beringue, B., Chanial, P., Tsang King Sang, E., and Errard, J. 2026. [A GPU-Accelerated JAX Framework for Robust Parametric Component Separation and Clustering Optimization for CMB Polarization Satellites](https://arxiv.org/abs/2604.08463). arXiv:2604.08463 [astro-ph.CO].
+- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2026. [A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites](https://arxiv.org/abs/2604.08463). arXiv:2604.08463 [astro-ph.CO].
 
 **In Preparation**
 
@@ -168,7 +167,7 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 ## Skills
 
 **Programming**
-Python (7y), JAX (3y), C++ (5y), CUDA (3y), PyTorch (1y)
+Python (7y), JAX (2y), C++ (5y), CUDA (3y), PyTorch (1y)
 
 **HPC & GPU Computing**
 NCCL, MPI, Slurm, Nsight; multi-node GPU, distributed FFTs
