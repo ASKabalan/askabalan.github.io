@@ -13,9 +13,9 @@ format:
 
 # Wassim Kabalan
 
-**R&D Engineer & PhD Candidate in Computational Cosmology**
+**PhD Candidate & Software Engineer — Computational Cosmology**
 
-I am an R&D Engineer and PhD Candidate at **APC (CNRS/IN2P3)**. My work bridges the gap between mathematical physics and industrial-grade software engineering. I specialize in **differentiable programming (adjoint-based methods)**, **simulation pipelines**, and **inverse problems** on massive GPU architectures.
+I am a PhD candidate and software engineer specializing in computational physics, high-dimensional Bayesian inference, and differentiable programming. I develop **JAX**-based,differentiable and distributed statistical models to extract physical parameters from complex cosmological data.
 
 
 [![GitHub - ASKabalan](https://img.shields.io/badge/GitHub-ASKabalan-lightblue?style=flat&logo=github&logoColor=black)](https://github.com/ASKabalan/)
@@ -25,22 +25,50 @@ I am an R&D Engineer and PhD Candidate at **APC (CNRS/IN2P3)**. My work bridges 
 ---
 
 
-## Education
+## Education & Professional Experience
 
 <table class="cv-experience">
 <tr>
-<td class="cv-date">Dec 2023 –<br>Oct 2026<br>(expected)</td>
-<td class="cv-content">
-**PhD, Physics of the Universe**, *Université Paris Cité*, Paris, France<br>
-APC, CNRS/IN2P3<br>
-Thesis: *Automatically differentiable and distributed probabilistic programming for weak-lensing inference.*<br>
-Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
-</td>
+  <td class="cv-date">Dec 2023 –<br>Dec 2026<br>(expected)</td>
+  <td class="cv-content">
+    <strong>Graduate Researcher (PhD, Physics of the Universe)</strong>, <em>Université Paris Cité — APC (CNRS/IN2P3)</em>, Paris, France<br>
+    <em>Thesis:</em> Automatically differentiable and distributed probabilistic programming for weak-lensing inference.<br>
+    Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse.
+    <ul>
+      <li><strong>Core of the thesis:</strong> developing <strong>JAX</strong>-based, GPU-accelerated, fully differentiable, high-dimensional statistical models to extract physical parameters from cosmological data.</li>
+      <li><em>Weak-lensing field-level inference (LSST).</em> Building differentiable cosmological simulations as forward models, then running MCMC chains over a ~10⁹-dimensional Bayesian posterior on up to <strong>512 H100 GPUs</strong> to recover cosmological parameters directly from large-scale-structure data.</li>
+      <li><em>CMB component separation (Simons Observatory).</em> Built a robust GPU-accelerated optimization framework, and led the design of a spatial clustering strategy for upcoming CMB satellite missions; first author of the corresponding paper (<a href="https://arxiv.org/abs/2604.08463">arXiv:2604.08463</a>).</li>
+    </ul>
+  </td>
 </tr>
 
 <tr>
 <td class="cv-date">Apr 2023 –<br>May 2023</td>
-<td class="cv-content">**Advanced AI for Data Analysis**, *École Polytechnique (Executive Education)*</td>
+<td class="cv-content">**Advanced AI for Data Analysis**, *École Polytechnique (Executive Education)*, Palaiseau</td>
+</tr>
+
+<tr>
+  <td class="cv-date">Oct 2019 –<br>Oct 2023</td>
+  <td class="cv-content">
+    <strong>3DEXPERIENCE & CATIA Software Infrastructure Engineer</strong>, <em>Dassault Systèmes</em>, Vélizy-Villacoublay, France
+    <ul>
+      <li>Developed features and maintained core infrastructure inside a <strong>multi-million-line C++ codebase</strong> shared by hundreds of engineers across teams.</li>
+      <li>Built and extended core conversion services and the CATIA cache infrastructure in modern <strong>C++ (17/20)</strong> on <strong>Linux</strong>, including a <em>multi-session distributed cache</em>.</li>
+      <li>Built <strong>CI/CD</strong> pipelines and a test matrix for the conversion service infrastructure.</li>
+    </ul>
+  </td>
+</tr>
+
+<tr>
+  <td class="cv-date">Jan 2019 –<br>Oct 2019</td>
+  <td class="cv-content">
+    <strong>Data Acquisition Engineer</strong>, <em>SERMA (for Renault)</em>, Guyancourt, France
+    <ul>
+      <li>Built tooling for high-volume vehicle sensor logs, including a custom <strong>C</strong> decoder for ECU binary data.</li>
+      <li>Developed parallel <strong>Python</strong> post-processing workflows on an <strong>88-core</strong> server.</li>
+      <li>Automated end-to-end conversion pipeline for vehicle network data.</li>
+    </ul>
+  </td>
 </tr>
 
 <tr>
@@ -56,46 +84,54 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 
 ---
 
-## Research & Professional Experience
+## Collaborations
 
-<table class="cv-experience">
-<tr>
-  <td class="cv-date">Dec 2023 –<br>Present</td>
-  <td class="cv-content">
-    <strong>Graduate Researcher (PhD)</strong>, <em>APC, CNRS/IN2P3</em>, Paris, France<br>
-    <em>Focus: Computational Cosmology, HPC & Inverse Problems</em>
-    <ul>
-      <li><strong>Differentiable Simulation (LSST):</strong> Developing <strong>JaxPM</strong>, a differentiable N-body forward model enabling gradient-based calibration of high-dimensional physical models using adjoint methods (via JAX AD).</li>
-      <li><strong>Inverse Problems (Simons Observatory):</strong> Solving large-scale inverse problems for CMB component separation. Implementing optimization workflows for <strong>spatially varying parameters</strong> to maximize signal recovery.</li>
-      <li><strong>HPC Infrastructure:</strong> Author of <strong>jaxDecomp</strong>, enabling multi-node domain decomposition and distributed FFTs on GPU clusters (binding to NVIDIA cuDecomp).</li>
-    </ul>
-  </td>
-</tr>
+- **LSST Dark Energy Science Collaboration (DESC)** — Member; *weak-lensing* forward models and scalable, differentiable simulation tools (`JaxPM`, `jax-fli`).
+- **Simons Observatory** — Member; component separation tooling (`FURAX`) for *CMB* analysis.
 
-<tr>
-  <td class="cv-date">Oct 2019 –<br>Oct 2023</td>
-  <td class="cv-content">
-    <strong>Software Infrastructure Engineer</strong>, <em>Dassault Systèmes</em>, Vélizy-Villacoublay, France<br>
-    <ul>
-      <li>Optimized CATIA cache/conversion pipeline (<strong>C++/Linux</strong>) for very large CAD data flows.</li>
-      <li>Led Linux convergence for a large C++ rich client.</li>
-      <li>Built <strong>GitLab CI/CD</strong> pipelines for automated testing, packaging, and releases.</li>
-    </ul>
-  </td>
-</tr>
+---
 
-<tr>
-  <td class="cv-date">Jan 2019 –<br>Oct 2019</td>
-  <td class="cv-content">
-    <strong>Data Acquisition Engineer</strong>, <em>SERMA (for Renault)</em>, Guyancourt, France<br>
-    <ul>
-      <li>Built tooling for high-volume vehicle sensor logs, including a custom <strong>C decoder</strong> for ECU binary data.</li>
-      <li>Developed parallel Python post-processing workflows on an <strong>88-core server</strong> for vehicle network data.</li>
-      <li>Automated conversion pipelines for vehicle network data.</li>
-    </ul>
-  </td>
-</tr>
-</table>
+## Open-Source Software
+
+- [`jax-fli`](https://github.com/ASKabalan/jax-fli) — **Author**. **JAX**-based *field-level inference* package; fully distributed, high-resolution N-body and lensing simulations.
+- [`jaxDecomp`](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — **Author / Maintainer**. **JAX** library for distributed 3D domain decomposition and FFTs: **NVIDIA cuDecomp** bindings (**multi-GPU**, **NCCL**) plus a pure-**JAX** backend for portability across CUDA / TPU / CPU.
+- [`JaxPM`](https://github.com/DifferentiableUniverseInitiative/JaxPM) — **Main contributor / Maintainer**. Differentiable particle-mesh simulations in **JAX** with multi-accelerator support; used for *weak-lensing* forward modeling.
+- [`jax-healpy`](https://github.com/CMBSciPol/jax-healpy) — **Main contributor / Maintainer**. **JAX**-native HEALPix utilities; AD-friendly, GPU-ready.
+- [`FURAX`](https://github.com/CMBSciPol/furax) — **Main contributor / Maintainer**. **JAX** framework for *inverse problems*; used for Simons Observatory *CMB component separation*.
+
+---
+
+## Talks & Tutorials
+
+- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025 [slides](https://askabalan.github.io/slides/2025_10_AI)
+- **JAXPM: Scalable and Differentiable Particle-Mesh Simulations** • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+- **Bayesian Inference for Cosmology with JAX** [Tutorial] • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
+- **Massively Parallel Computing in Cosmology with JAX** [Tutorial] • CoPhy 2024 • Nov 2024 [slides](https://askabalan.github.io/slides/2024_11_CoPhy/index.html#/title-slide)
+- **Differentiable and Distributed Particle-Mesh N-body Simulations** • LSST France 2024 • Jun 2024 [slides](https://askabalan.github.io/slides/2024_06_LSST_FR/index.html#/title-slide)
+
+---
+
+## Publications
+
+**Refereed**
+
+- Spagnoletti, A., Boucaud, A., Huertas-Company, M., **Kabalan, W.**, and Biswas, B. 2024. [Bayesian Deconvolution of Astronomical Images with Diffusion Models: Quantifying Prior-Driven Features in Reconstructions](https://arxiv.org/abs/2411.19158). arXiv:2411.19158 [astro-ph.IM].
+  *Contribution:* **JAX**-based deconvolution code, multi-node simulations on Jean Zay HPC.
+
+- Sommer, K., **Kabalan, W.**, and Brunet, R. 2024. [Infrared Radiometric Image Classification and Segmentation of Cloud Structure Using Deep-learning Framework for Ground-based Infrared Thermal Camera Observations](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-101/). EGUsphere Preprint 2024-101.
+  *Contribution:* **JAX**-based U-Net implementation and training on Jean Zay HPC. Code: [github.com/ASKabalan/infrared-cloud-detection](https://github.com/ASKabalan/infrared-cloud-detection)
+
+**Preprints**
+
+- **Kabalan, W.**, Rizzieri, A., Sohn, W., Basyrov, A., Boucaud, A., Beringue, B., Chanial, P., Tsang King Sang, E., and Errard, J. 2026. [A GPU-Accelerated JAX Framework for Robust Parametric Component Separation and Clustering Optimization for CMB Polarization Satellites](https://arxiv.org/abs/2604.08463). arXiv:2604.08463 [astro-ph.CO].
+
+**Software**
+
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. jaxDecomp: JAX Library for 3D Domain Decomposition and Parallel FFTs. Submitted to JOSS.
+
+**In Preparation**
+
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2026. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations.
 
 ---
 
@@ -106,7 +142,7 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 <td class="cv-date">Jan 2025 –<br>Jun 2025</td>
 <td class="cv-content">
 **Binh Nguyen**, Master 1 Student<br>
-*Project:* Inference of Weak-Lensing Parameters from Blended Galaxies Using Generative Neural Networks.<br>
+*Project:* Inference of Weak-Lensing Parameters from Blended Galaxies Using Generative Neural Networks. [Final report](https://binhola.github.io/littlewolfz/M2-NPAC/reports/VAE_deblender_final_report_M1_GP_2025.pdf).<br>
 *Outcome:* Talk at Rencontres du Vietnam.
 </td>
 </tr>
@@ -114,66 +150,16 @@ Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse
 
 ---
 
-## Talks & Tutorials
-
-- **Generative AI with JAX** [Tutorial] • AISSAI School 2025 • Oct 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
-- **JAXPM: Scalable and Differentiable Particle-Mesh Simulations** • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
-- **Bayesian Inference for Cosmology with JAX** [Tutorial] • Bayesian Deep Learning Workshop • May 2025 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
-- **Massively Parallel Computing in Cosmology with JAX** [Tutorial] • CoPhy 2024 • Nov 2024 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
-- **Differentiable and Distributed Particle-Mesh N-body Simulations** • LSST France 2024 • Jun 2024 [slides](https://askabalan.github.io/slides/2025_05_BDL/index.html#/title-slide)
-
----
-
-## Open-Source Software
-
-- **[jax-fli](https://github.com/ASKabalan/jax-fli)** — **Author**. JAX-based Field Level Inference package with fully distributed and high-resolution N-body and lensing simulations.
-- **[jaxDecomp](https://github.com/DifferentiableUniverseInitiative/jaxDecomp)** — **Author**. JAX bindings to NVIDIA cuDecomp for distributed 3D FFTs and multi-GPU domain decomposition.
-- **[JaxPM](https://github.com/DifferentiableUniverseInitiative/JaxPM)** — **Main contributor/Maintainer**. Particle-mesh cosmological simulation toolkit in JAX with multi-accelerator support.
-- **[FURAX](https://github.com/CMBSciPol/furax)** — **Main contributor/Maintainer**. Framework for Unified and Robust data Analysis with JAX for inverse problems in cosmology.
-- **[FURAX_CS](https://github.com/CMBSciPol/furax-cs)** — **Main contributor/Maintainer**. Component separation pipeline for the Simons Observatory and LiteBird using FURAX.
-- **[jax-healpy](https://github.com/CMBSciPol/jax-healpy)** — **Main contributor/Maintainer**. JAX-native HEALPix utilities — GPU-ready and differentiable.
-- **[jax-grid-search](https://github.com/CMBSciPol/jax-grid-search)** — **Author**. Distributed grid search + gradient-based optimization built on JAX/Optax.
-
-**Contributions**
-- **[S2FFT](https://github.com/astro-informatics/s2fft)** — **Contributor**. Differentiable spherical & Wigner transforms (JAX & PyTorch). *Contribution:* CUDA spherical harmonics to reduce JAX JIT time.
-
----
-
-## Publications
-
-**Refereed**
-
-- Spagnoletti, A., Boucaud, A., Huertas-Company, M., **Kabalan, W.**, and Biswas, B. 2024. [Bayesian Deconvolution of Astronomical Images with Diffusion Models: Quantifying Prior-Driven Features in Reconstructions](https://arxiv.org/abs/2411.19158). arXiv:2411.19158 [astro-ph.IM].
-  *Contribution:* Set up JAX-based deconvolution code and ran multi-node simulations on Jean Zay HPC cluster.
-
-- Sommer, K., **Kabalan, W.**, and Brunet, R. 2024. [Infrared Radiometric Image Classification and Segmentation of Cloud Structure Using Deep-learning Framework for Ground-based Infrared Thermal Camera Observations](https://egusphere.copernicus.org/preprints/2024/egusphere-2024-101/). EGUsphere Preprint 2024-101.
-  *Contribution:* Created and ran JAX-based U-Net model on Jean Zay HPC. Code: [github.com/ASKabalan/infrared-cloud-detection](https://github.com/ASKabalan/infrared-cloud-detection)
-
-**Software**
-
-- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. jaxDecomp: JAX Library for 3D Domain Decomposition and Parallel FFTs. Submitted to JOSS.
-
-**Preprints**
-
-- **Kabalan, W.**, Rizzieri, A., Sohn, W., Beringue, B., Basyrov, A., Chanial, P., Boucaud, A., and Errard, J. 2026. [A novel approach to optimize clustering for parametric map-based component separation for upcoming CMB polarization satellites](https://arxiv.org/abs/2604.08463). arXiv:2604.08463 [astro-ph.CO].
-
-**In Preparation**
-
-- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations.
-
-
-
-
 ## Skills
 
 **Programming**
-Python (7y), JAX (2y), C++ (5y), CUDA (3y), PyTorch (1y)
+**Python** (7y), **JAX** (3y), **C++** (5y), **CUDA** (3y), **PyTorch** (1y)
 
 **HPC & GPU Computing**
-NCCL, MPI, Slurm, Nsight; multi-node GPU, distributed FFTs
+**NCCL**, **MPI**, Slurm, Nsight; **multi-node GPU** (up to **512 H100s**), distributed FFTs, custom CUDA primitives via XLA FFI/CustomCall
 
 **Statistics & Machine Learning**
-Bayesian inference (MCMC, HMC, NUTS), simulation-based inference; NumPyro/BlackJAX
+High-dimensional Bayesian inference (MCMC, HMC, NUTS) with NumPyro / BlackJAX; simulation-based and *field-level inference*; generative deep learning; uncertainty quantification
 
 **DevOps & Software Engineering**
 GitHub/GitLab CI, packaging (PyPI), containers, Linux, CMake, TDD
