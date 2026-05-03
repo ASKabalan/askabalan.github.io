@@ -74,7 +74,6 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="stylesheet" href="assets/index.css">
 <meta property="og:title" content="Wassim Kabalan">
-<meta property="og:description" content="My personal website showcasing research in computational cosmology, publications, and projects in differentiable simulations and HPC.">
 <meta property="og:image" content="https://askabalan.github.io/assets/avatar.jpg">
 <meta property="og:site_name" content="Wassim Kabalan">
 <meta property="og:locale" content="en_US">
@@ -157,13 +156,25 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents page-columns page-full"><main class="content page-columns page-full" id="quarto-document-content">
-<section id="bio" class="level2 column-page">
+<div class="column-page">
+<section id="bio" class="level2">
 <h2 data-anchor-id="bio">Bio</h2>
-<p>I am an <strong>R&amp;D Engineer</strong> and <strong>PhD Candidate</strong> (expected <strong>Oct 2026</strong>) in computational cosmology at the AstroParticule &amp; Cosmology Laboratory (APC, <strong>CNRS/IN2P3</strong>) and Université Paris Cité. I am advised by <strong>Eric Aubourg</strong>, <strong>Alexandre Boucaud</strong>, <strong>Josquin Errard</strong>, and <strong>François Lanusse</strong>. My thesis, <strong><em>“Automatically differentiable and distributed probabilistic programming for weak-lensing inference,”</em></strong> aims to bridge the gap between mathematical physics and industrial-grade software engineering.</p>
-<p>I develop <strong>differentiable N-body solvers</strong> (using <strong>JaxPM</strong>) capable of running at <strong>Rubin LSST scale</strong>. By leveraging <strong>multi-node domain decomposition</strong> and <strong>automatic differentiation</strong>, my work enables <strong>hierarchical Bayesian inference</strong> directly over forward simulations of large-scale structure, paving the way for <strong>full-field inference</strong> and near-optimal extraction of cosmological information .</p>
-<p>As a member of the <strong>Simons Observatory</strong> , I also work on <strong>CMB component separation</strong>. I am particularly focused on modeling the <strong>spatial variability of foreground spectral indices</strong> to reduce bias on the tensor-to-scalar ratio . To this end, I develop the <strong>FURAX</strong> framework , building a fast, scalable minimizer designed to be efficient with extremely noisy data for upcoming <strong>full-sky</strong> missions like <strong>LiteBIRD</strong>.</p>
-<p>Prior to my PhD, I spent 5 years in industry. I was a <strong>Software Infrastructure Engineer</strong> at <strong>Dassault Systèmes</strong>, optimizing C++/Linux pipelines for <strong>CATIA</strong> , and a <strong>Data Acquisition Engineer</strong> at <strong>Renault</strong> .</p>
+<p>I am an <strong>R&amp;D Engineer</strong> and <strong>PhD Candidate</strong> (expected <strong>Oct 2026</strong>) in computational cosmology at the AstroParticule &amp; Cosmology Laboratory (APC, <strong>CNRS/IN2P3</strong>) and Université Paris Cité. I am advised by <strong>Eric Aubourg</strong>, <strong>Alexandre Boucaud</strong>, <strong>Josquin Errard</strong>, and <strong>François Lanusse</strong>. My thesis, <strong><em>“Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference,”</em></strong> develops the differentiable simulation and inference stack needed to extract cosmological information from the next generation of large-scale-structure surveys.</p>
 </section>
+<section id="interests" class="level2">
+<h2 data-anchor-id="interests">Interests</h2>
+<p>My research sits at the intersection of high-dimensional statistical modeling, differentiable programming, and large-scale distributed computing. The problems I find most interesting are those where the bottleneck is the engineering rather than the underlying physics — extracting principled posteriors from cosmological surveys requires forward models that are simultaneously physically accurate, automatically differentiable, and capable of scaling across thousands of accelerators. Most of my time is spent building the JAX-based simulation and inference tools that make this kind of analysis tractable.</p>
+</section>
+<section id="research" class="level2">
+<h2 data-anchor-id="research">Research</h2>
+<p>I develop differentiable N-body solvers — most notably <strong>JaxPM</strong>, which I maintain — capable of running at <strong>Rubin LSST scale</strong>. Multi-node domain decomposition and automatic differentiation make it possible to perform <strong>hierarchical Bayesian inference</strong> directly over forward simulations of large-scale structure, paving the way for <strong>full-field inference</strong> and near-optimal extraction of cosmological information.</p>
+<p>As a member of the <strong>Simons Observatory</strong>, I also work on <strong>CMB component separation</strong>, focusing on the <strong>spatial variability of foreground spectral indices</strong>, which biases the tensor-to-scalar ratio if not modeled carefully. To this end, I develop the <strong>FURAX</strong> framework — a fast, scalable minimizer designed to remain robust under the extremely noisy regimes expected for upcoming <strong>full-sky</strong> missions like <strong>LiteBIRD</strong>.</p>
+</section>
+<section id="prior-to-academia" class="level2">
+<h2 data-anchor-id="prior-to-academia">Prior to academia</h2>
+<p>Before starting the PhD I spent five years in industry. I was a <strong>Software Infrastructure Engineer</strong> at <strong>Dassault Systèmes</strong>, where I worked inside the multi-million-line <strong>CATIA</strong> C++/Linux codebase, and earlier a <strong>Data Acquisition Engineer</strong> at <strong>Renault</strong>. Those years shaped how I write research code today.</p>
+</section>
+</div>
 
 
 </main></div>
