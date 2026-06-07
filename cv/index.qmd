@@ -115,6 +115,8 @@ I am a PhD candidate and software engineer specializing in computational physics
 
 **Refereed**
 
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2026. [jaxDecomp: JAX Library for 3D Domain Decomposition and Parallel FFTs](https://joss.theoj.org/papers/10.21105/joss.08852). Journal of Open Source Software, 11(121), 8852. https://doi.org/10.21105/joss.08852.
+
 - Spagnoletti, A., Boucaud, A., Huertas-Company, M., **Kabalan, W.**, and Biswas, B. 2024. [Bayesian Deconvolution of Astronomical Images with Diffusion Models: Quantifying Prior-Driven Features in Reconstructions](https://arxiv.org/abs/2411.19158). arXiv:2411.19158 [astro-ph.IM].
   *Contribution:* **JAX**-based deconvolution code, multi-node simulations on Jean Zay HPC.
 
@@ -124,10 +126,6 @@ I am a PhD candidate and software engineer specializing in computational physics
 **Preprints**
 
 - **Kabalan, W.**, Rizzieri, A., Sohn, W., Basyrov, A., Boucaud, A., Beringue, B., Chanial, P., Tsang King Sang, E., and Errard, J. 2026. [A GPU-Accelerated JAX Framework for Robust Parametric Component Separation and Clustering Optimization for CMB Polarization Satellites](https://arxiv.org/abs/2604.08463). arXiv:2604.08463 [astro-ph.CO].
-
-**Software**
-
-- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2025. jaxDecomp: JAX Library for 3D Domain Decomposition and Parallel FFTs. Submitted to JOSS.
 
 **In Preparation**
 
