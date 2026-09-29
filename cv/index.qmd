@@ -93,7 +93,7 @@ I am a PhD candidate and software engineer specializing in computational physics
 
 ## Open-Source Software
 
-- [`jax-fli`](https://github.com/ASKabalan/jax-fli) — **Author**. **JAX**-based *field-level inference* package; fully distributed, high-resolution N-body and lensing simulations.
+- [`jax-fli`](https://github.com/DifferentiableUniverseInitiative/jax-fli) — **Author**. **JAX**-based *field-level inference* package; fully distributed, high-resolution N-body and lensing simulations.
 - [`jaxDecomp`](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — **Author / Maintainer**. **JAX** library for distributed 3D domain decomposition and FFTs: **NVIDIA cuDecomp** bindings (**multi-GPU**, **NCCL**) plus a pure-**JAX** backend for portability across CUDA / TPU / CPU.
 - [`JaxPM`](https://github.com/DifferentiableUniverseInitiative/JaxPM) — **Main contributor / Maintainer**. Differentiable particle-mesh simulations in **JAX** with multi-accelerator support; used for *weak-lensing* forward modeling.
 - [`jax-healpy`](https://github.com/CMBSciPol/jax-healpy) — **Main contributor / Maintainer**. **JAX**-native HEALPix utilities; AD-friendly, GPU-ready.
