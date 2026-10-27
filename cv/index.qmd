@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae [<i class='bi bi-download'></i>](Wassim_Kabalan_CV.pdf)"
-description: "Wassim Kabalan — R&D Engineer & PhD Candidate (APC, CNRS/IN2P3)"
+description: "Wassim Kabalan — Research Associate, The Alan Turing Institute"
 page-layout: article
 toc: true
 toc-title: "Contents"
@@ -13,14 +13,14 @@ format:
 
 # Wassim Kabalan
 
-**PhD Candidate & Software Engineer — Computational Cosmology**
+**Research Associate — AI for Physics, The Alan Turing Institute**
 
-I am a PhD candidate and software engineer specializing in computational physics, high-dimensional Bayesian inference, and differentiable programming. I develop **JAX**-based,differentiable and distributed statistical models to extract physical parameters from complex cosmological data.
+I am a Research Associate at The Alan Turing Institute, where I work on AI for physics. During my PhD in computational cosmology I built differentiable simulation and inference software in **JAX**, from the statistical method down to the distributed GPU code, and several of these libraries are now used by other groups. Before the PhD I spent five years writing production **C++** at Dassault Systèmes inside a multi-million-line codebase.
 
 
 [![GitHub - ASKabalan](https://img.shields.io/badge/GitHub-ASKabalan-lightblue?style=flat&logo=github&logoColor=black)](https://github.com/ASKabalan/)
 [![LinkedIn - Wassim Kabalan](https://img.shields.io/badge/LinkedIn-Wassim%20Kabalan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wassimkabalan/)
-[![Email - wassim@apc.in2p3.fr](https://img.shields.io/badge/Email-wassim%40apc.in2p3.fr-blue?style=flat)](mailto:wassim@apc.in2p3.fr)
+[![Email - wkabalan@turing.ac.uk](https://img.shields.io/badge/Email-wkabalan%40turing.ac.uk-blue?style=flat)](mailto:wkabalan@turing.ac.uk)
 
 ---
 
@@ -29,10 +29,18 @@ I am a PhD candidate and software engineer specializing in computational physics
 
 <table class="cv-experience">
 <tr>
-  <td class="cv-date">Dec 2023 –<br>Dec 2026<br>(expected)</td>
+  <td class="cv-date">Oct 2026 –<br>present</td>
   <td class="cv-content">
-    <strong>Graduate Researcher (PhD, Physics of the Universe)</strong>, <em>Université Paris Cité — APC (CNRS/IN2P3)</em>, Paris, France<br>
-    <em>Thesis:</em> Automatically differentiable and distributed probabilistic programming for weak-lensing inference.<br>
+    <strong>Research Associate</strong>, <em>The Alan Turing Institute</em>, London, UK<br>
+    AI for Physics team (Fundamental Research), with Jason McEwen. Physics-informed emulators and rigorous Bayesian uncertainty quantification.
+  </td>
+</tr>
+
+<tr>
+  <td class="cv-date">Dec 2023 –<br>Oct 2026</td>
+  <td class="cv-content">
+    <strong>PhD in Computational Cosmology</strong>, <em>Université Paris Cité — APC (CNRS/IN2P3)</em>, Paris, France<br>
+    <em>Thesis:</em> Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference.<br>
     Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse.
     <ul>
       <li><strong>Core of the thesis:</strong> developing <strong>JAX</strong>-based, GPU-accelerated, fully differentiable, high-dimensional statistical models to extract physical parameters from cosmological data.</li>
@@ -129,7 +137,7 @@ I am a PhD candidate and software engineer specializing in computational physics
 
 **In Preparation**
 
-- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2026. JAXPM: A JAX-Based Framework for Scalable and Differentiable Particle Mesh Simulations.
+- **Kabalan, W.**, Lanusse, F., Boucaud, A., and Aubourg, E. 2026. Differentiable Forward Modelling for Field-Level Inference in Stage IV Weak Lensing Surveys.
 
 ---
 

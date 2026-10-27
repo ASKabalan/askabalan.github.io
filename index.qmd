@@ -12,7 +12,7 @@ about:
       url: "https://github.com/askabalan"
     - text: Email
       icon: envelope
-      url: "mailto:wassim@apc.in2p3.fr"
+      url: "mailto:wkabalan@turing.ac.uk"
     - text: arXiv
       icon: arxiv
       url: "https://arxiv.org/search/?query=wassim+kabalan&searchtype=all&source=header"
@@ -26,17 +26,19 @@ format:
 
 ## Bio
 
-I am an **R&D Engineer** and **PhD Candidate** (expected **Oct 2026**) in computational cosmology at the AstroParticule & Cosmology Laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité. I am advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse**. My thesis, ***"Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference,"*** develops the differentiable simulation and inference stack needed to extract cosmological information from the next generation of large-scale-structure surveys.
+I am a **Research Associate** at **The Alan Turing Institute** in London, in the **AI for Physics** team of the Fundamental Research mission, where I work with **Jason McEwen**. I completed my PhD in computational cosmology in October 2026 at the AstroParticule et Cosmologie laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité, advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse**. My thesis, ***"Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference"***, develops the differentiable simulation and inference methods needed to extract cosmological information from the next generation of CMB and large-scale-structure surveys.
 
 ## Interests
 
-My research sits at the intersection of high-dimensional statistical modeling, differentiable programming, and large-scale distributed computing. The problems I find most interesting are those where the bottleneck is the engineering rather than the underlying physics — extracting principled posteriors from cosmological surveys requires forward models that are simultaneously physically accurate, automatically differentiable, and capable of scaling across thousands of accelerators. Most of my time is spent building the JAX-based simulation and inference tools that make this kind of analysis tractable.
+My main interest is the intersection of physical models and machine-learned emulators for weather forecasting on spherical geometries. I am also interested in Bayesian uncertainty quantification for high-dimensional problems. Such problems require differentiable forward models and scalable samplers, which I built in JAX for cosmological inference during my PhD.
 
 ## Research
 
-I develop differentiable N-body solvers — most notably **JaxPM**, which I maintain — capable of running at **Rubin LSST scale**. Multi-node domain decomposition and automatic differentiation make it possible to perform **hierarchical Bayesian inference** directly over forward simulations of large-scale structure, paving the way for **full-field inference** and near-optimal extraction of cosmological information.
+At the Turing, my goal is to build emulators for weather forecasting on spherical geometries that remain consistent with the underlying physical models, and to quantify their uncertainty with Bayesian methods.
 
-As a member of the **Simons Observatory**, I also work on **CMB component separation**, focusing on the **spatial variability of foreground spectral indices**, which biases the tensor-to-scalar ratio if not modeled carefully. To this end, I develop the **FURAX** framework — a fast, scalable minimizer designed to remain robust under the extremely noisy regimes expected for upcoming **full-sky** missions like **LiteBIRD**.
+During my PhD, I developed differentiable N-body solvers, most notably **JaxPM**, which I maintain, at the scale of **Rubin LSST**. Multi-node domain decomposition and automatic differentiation allow **hierarchical Bayesian inference** directly over forward simulations of large-scale structure, which makes **full-field inference** and near-optimal extraction of cosmological information possible.
+
+As a member of the **Simons Observatory**, I also worked on **CMB component separation**, focusing on the **spatial variability of foreground spectral indices**, which biases the tensor-to-scalar ratio if left unmodelled. I developed a fast, scalable minimiser in the **FURAX** framework that remains robust in the extremely noisy regimes expected for upcoming **full-sky** missions such as **LiteBIRD**.
 
 ## Prior to academia
 
