@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae [<i class='bi bi-download'></i>](Wassim_Kabalan_CV.pdf)"
-description: "Wassim Kabalan — Research Associate, The Alan Turing Institute"
+description: "Wassim Kabalan, Research Associate, The Alan Turing Institute"
 page-layout: article
 toc: true
 toc-title: "Contents"
@@ -13,7 +13,7 @@ format:
 
 # Wassim Kabalan
 
-**Research Associate — AI for Physics, The Alan Turing Institute**
+**Research Associate, AI for Physics, The Alan Turing Institute**
 
 I am a Research Associate at The Alan Turing Institute, where I work on AI for physics. During my PhD in computational cosmology I built differentiable simulation and inference software in **JAX**, from the statistical method down to the distributed GPU code, and several of these libraries are now used by other groups. Before the PhD I spent five years writing production **C++** at Dassault Systèmes inside a multi-million-line codebase.
 
@@ -32,20 +32,20 @@ I am a Research Associate at The Alan Turing Institute, where I work on AI for p
   <td class="cv-date">Oct 2026 –<br>present</td>
   <td class="cv-content">
     <strong>Research Associate</strong>, <em>The Alan Turing Institute</em>, London, UK<br>
-    AI for Physics team (Fundamental Research), with Jason McEwen. Physics-informed emulators and rigorous Bayesian uncertainty quantification.
+    AI for Physics team (Fundamental Research), with Jason McEwen. Physics-informed scalable emulators on the sphere.
   </td>
 </tr>
 
 <tr>
   <td class="cv-date">Dec 2023 –<br>Oct 2026</td>
   <td class="cv-content">
-    <strong>PhD in Computational Cosmology</strong>, <em>Université Paris Cité — APC (CNRS/IN2P3)</em>, Paris, France<br>
+    <strong>PhD in Computational Cosmology</strong>, <em>Université Paris Cité, APC (CNRS/IN2P3)</em>, Paris, France<br>
     <em>Thesis:</em> Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference.<br>
     Advisors: Eric Aubourg, Alexandre Boucaud, Josquin Errard, François Lanusse.
     <ul>
-      <li><strong>Core of the thesis:</strong> developing <strong>JAX</strong>-based, GPU-accelerated, fully differentiable, high-dimensional statistical models to extract physical parameters from cosmological data.</li>
-      <li><em>Weak-lensing field-level inference (LSST).</em> Building differentiable cosmological simulations as forward models, then running MCMC chains over a ~10⁹-dimensional Bayesian posterior on up to <strong>512 H100 GPUs</strong> to recover cosmological parameters directly from large-scale-structure data.</li>
-      <li><em>CMB component separation (Simons Observatory).</em> Built a robust GPU-accelerated optimization framework, and led the design of a spatial clustering strategy for upcoming CMB satellite missions; first author of the corresponding paper (<a href="https://arxiv.org/abs/2604.08463">arXiv:2604.08463</a>).</li>
+      <li><strong>Core of the thesis:</strong> developing <strong>JAX</strong>-based, GPU-accelerated, fully differentiable, high-dimensional statistical models to extract physical parameters from the full field-level information of cosmological data.</li>
+      <li><em>Weak-lensing field-level inference (LSST).</em> Built differentiable cosmological simulations and ran them on up to <strong>512 H100 GPUs</strong>. The simulations are designed as forward models for MCMC sampling of a ~10⁹-dimensional Bayesian posterior, to recover cosmological parameters directly from large-scale-structure data.</li>
+      <li><em>CMB component separation (Simons Observatory).</em> Built a robust GPU-accelerated optimisation framework, and led the design of a spatial clustering strategy for upcoming CMB satellite missions. First author of the corresponding paper (<a href="https://arxiv.org/abs/2604.08463">arXiv:2604.08463</a>).</li>
     </ul>
   </td>
 </tr>
@@ -94,18 +94,20 @@ I am a Research Associate at The Alan Turing Institute, where I work on AI for p
 
 ## Collaborations
 
-- **LSST Dark Energy Science Collaboration (DESC)** — Member; *weak-lensing* forward models and scalable, differentiable simulation tools (`JaxPM`, `jax-fli`).
-- **Simons Observatory** — Member; component separation tooling (`FURAX`) for *CMB* analysis.
+- **LSST Dark Energy Science Collaboration, DESC** (member). *Weak-lensing* forward models and scalable, differentiable simulation tools (`JaxPM`, `jax-fli`).
+- **Simons Observatory** (member). Component separation tooling (`FURAX`) for *CMB* analysis.
 
 ---
 
 ## Open-Source Software
 
-- [`jax-fli`](https://github.com/DifferentiableUniverseInitiative/jax-fli) — **Author**. **JAX**-based *field-level inference* package; fully distributed, high-resolution N-body and lensing simulations.
-- [`jaxDecomp`](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) — **Author / Maintainer**. **JAX** library for distributed 3D domain decomposition and FFTs: **NVIDIA cuDecomp** bindings (**multi-GPU**, **NCCL**) plus a pure-**JAX** backend for portability across CUDA / TPU / CPU.
-- [`JaxPM`](https://github.com/DifferentiableUniverseInitiative/JaxPM) — **Main contributor / Maintainer**. Differentiable particle-mesh simulations in **JAX** with multi-accelerator support; used for *weak-lensing* forward modeling.
-- [`jax-healpy`](https://github.com/CMBSciPol/jax-healpy) — **Main contributor / Maintainer**. **JAX**-native HEALPix utilities; AD-friendly, GPU-ready.
-- [`FURAX`](https://github.com/CMBSciPol/furax) — **Main contributor / Maintainer**. **JAX** framework for *inverse problems*; used for Simons Observatory *CMB component separation*.
+- [`s2fft`](https://github.com/astro-informatics/s2fft) (**Contributor / Maintainer**). Working on highly optimised and distributed **CUDA** kernels for spherical harmonic transforms, targeting weather forecasting applications.
+- [`jax-fli`](https://github.com/DifferentiableUniverseInitiative/jax-fli) (**Author**). **JAX**-based *field-level inference* package. Fully distributed, high-resolution N-body and lensing simulations.
+- [`jaxDecomp`](https://github.com/DifferentiableUniverseInitiative/jaxDecomp) (**Author / Maintainer**). **JAX** library for distributed 3D domain decomposition and FFTs: **NVIDIA cuDecomp** bindings (**multi-GPU**, **NCCL**) plus a pure-**JAX** backend for portability across CUDA / TPU / CPU.
+- [`JaxPM`](https://github.com/DifferentiableUniverseInitiative/JaxPM) (**Main contributor / Maintainer**). Differentiable particle-mesh simulations in **JAX** with multi-accelerator support, used for *weak-lensing* forward modelling.
+- [`jax-healpy`](https://github.com/CMBSciPol/jax-healpy) (**Main contributor / Maintainer**). **JAX**-native HEALPix utilities, AD-friendly, GPU-ready.
+- [`FURAX`](https://github.com/CMBSciPol/furax) (**Main contributor / Maintainer**). **JAX** framework for *inverse problems*, used for Simons Observatory *CMB component separation*.
+- [`furax-cs`](https://github.com/CMBSciPol/furax-cs) (**Author**). GPU CMB foreground decontamination in **JAX**, built around `ADABK`, a novel minimiser that converges in far fewer iterations than standard optimisers. On **PyPI**, with a live **Hugging Face Space** for the results.
 
 ---
 
@@ -147,7 +149,7 @@ I am a Research Associate at The Alan Turing Institute, where I work on AI for p
 <tr>
 <td class="cv-date">Jan 2025 –<br>Jun 2025</td>
 <td class="cv-content">
-**Binh Nguyen**, Master 1 Student<br>
+**Binh Nguyen** (Master 1 student)<br>
 *Project:* Inference of Weak-Lensing Parameters from Blended Galaxies Using Generative Neural Networks. [Final report](https://binhola.github.io/littlewolfz/M2-NPAC/reports/VAE_deblender_final_report_M1_GP_2025.pdf).<br>
 *Outcome:* Talk at Rencontres du Vietnam.
 </td>
@@ -159,16 +161,16 @@ I am a Research Associate at The Alan Turing Institute, where I work on AI for p
 ## Skills
 
 **Programming**
-**Python** (7y), **JAX** (3y), **C++** (5y), **CUDA** (3y), **PyTorch** (1y)
+**Python** (7y), **JAX** (4y), **C++** (5y), **CUDA** (4y), **PyTorch** (2y)
 
 **HPC & GPU Computing**
-**NCCL**, **MPI**, Slurm, Nsight; **multi-node GPU** (up to **512 H100s**), distributed FFTs, custom CUDA primitives via XLA FFI/CustomCall
+**NCCL**, **MPI**, **Slurm** (expert), Nsight, **multi-node GPU** (up to **512 H100s**), distributed FFTs, custom CUDA primitives via XLA FFI/CustomCall
 
 **Statistics & Machine Learning**
-High-dimensional Bayesian inference (MCMC, HMC, NUTS) with NumPyro / BlackJAX; simulation-based and *field-level inference*; generative deep learning; uncertainty quantification
+High-dimensional Bayesian inference (MCMC, HMC, NUTS) with NumPyro / BlackJAX, simulation-based and *field-level inference*, generative deep learning, uncertainty quantification
 
 **DevOps & Software Engineering**
-GitHub/GitLab CI, packaging (PyPI), containers, Linux, CMake, TDD
+GitHub/GitLab CI, packaging (PyPI), **uv**, containers (**Singularity**, **Docker**), **Hugging Face Hub** (Datasets, Spaces), Linux, CMake, TDD
 
 ---
 
