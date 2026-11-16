@@ -26,7 +26,7 @@ format:
 
 ## Bio
 
-I am a **Research Associate** at **The Alan Turing Institute** in London, in the **AI for Physics** team of the Fundamental Research mission, where I work with **Jason McEwen**. I completed my PhD in computational cosmology in October 2026 at the AstroParticule et Cosmologie laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité, advised by **Eric Aubourg**, **Alexandre Boucaud**, **Josquin Errard**, and **François Lanusse**. My thesis, ***"Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference"***, develops the differentiable simulation and inference methods needed to extract cosmological information from the next generation of CMB and large-scale-structure surveys.
+I am a **Research Associate** at **The Alan Turing Institute** in London, in the **AI for Physics** team of the Fundamental Research mission, where I work with **[Jason McEwen](http://www.jasonmcewen.org/)**. I completed my PhD in computational cosmology in October 2026 at the AstroParticule et Cosmologie laboratory (APC, **CNRS/IN2P3**) and Université Paris Cité, advised by **Eric Aubourg**, **[Alexandre Boucaud](https://aboucaud.github.io/)**, **Josquin Errard**, and **[François Lanusse](https://flanusse.net/)**. My thesis, ***"Differentiable Field-Level Cosmology: CMB, Weak Lensing, and GPU-Accelerated Inference"***, develops the differentiable simulation and inference methods needed to extract cosmological information from the next generation of CMB and large-scale-structure surveys.
 
 ## Interests
 
